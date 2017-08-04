@@ -35,6 +35,7 @@ static NSString *const reuseIdentifier = @"shop";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // 加载数据
     NSArray *shops = [JTShop objectArrayWithFilename:@"shops.plist"];
     [self.shops addObjectsFromArray:shops];
